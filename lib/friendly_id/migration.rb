@@ -1,5 +1,5 @@
 MIGRATION_CLASS =
-  if ActiveRecord::VERSION::MAJOR >= 5
+  if ActiveRecord::VERSION::MAJOR >= 6
     ActiveRecord::Migration["#{ActiveRecord::VERSION::MAJOR}.#{ActiveRecord::VERSION::MINOR}"]
   else
     ActiveRecord::Migration
